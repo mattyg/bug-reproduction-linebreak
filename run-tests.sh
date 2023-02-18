@@ -9,5 +9,5 @@ hc dna pack dnas/forum/workdir
 cd ../
 
 echo ""
-echo "forum dna md5sum: $(md5sum example1/target/wasm32-unknown-unknown/release/posts_integrity.wasm)"
-echo "forum dna md5sum: $(md5sum example2/target/wasm32-unknown-unknown/release/posts_integrity.wasm)"
+echo "example1 posts_integrity zome md5sum: $(md5sum example1/target/wasm32-unknown-unknown/release/posts_integrity.wasm)"
+echo "example2 posts_integrity zome md5sum: $(md5sum example2/target/wasm32-unknown-unknown/release/posts_integrity.wasm)"
